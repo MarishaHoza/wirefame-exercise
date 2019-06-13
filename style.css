@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
 }
 
 header {
@@ -72,15 +73,43 @@ main > article > section {
   width: 50%;
   float: right;
   padding-left: 30px;
+  position: relative;
+  height: 400px;
 }
 
 article > section > button {
   width: 150px;
   height: 35px;
   background-color: #111;
+  color: #eee;
+  position: absolute;
+  bottom: 0;
 }
 
+article > section > button:hover {
+  background-color: #eee;
+  color: #111;
+  transition: 350ms;
+  transition-timing-function: ease-in;
+  cursor: pointer;
+}
 
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 7px;
+}
+
+p {
+  overflow: auto;
+  height: 330px;
+  margin-bottom: 7px;
+}
+
+/* todo
+  nav items
+  italic box
+  yep yep yep
+*/
 
 
 
