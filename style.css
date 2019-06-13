@@ -16,7 +16,7 @@ main {
 }
 
 footer {
-  height: 200px;
+  height: 140px;
   background-color: #555;
 }
 
@@ -36,8 +36,15 @@ nav > ul {
 
 nav > ul > li {
   float: left;
-  margin-right: 50px;
+  margin-right: 75px;
   line-height: 65px;
+  font-size: 1.1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #999;
+  font-family: Helvetica, sans-serif;
 }
 
 nav > ul > li:first-child {
@@ -78,31 +85,37 @@ main > article > section {
 }
 
 article > section > button {
-  width: 150px;
-  height: 35px;
+  width: 175px;
+  height: 44px;
   background-color: #111;
-  color: #eee;
+  font-size: 1.1em;
+  color: #ddd;
   position: absolute;
   bottom: 0;
+  border-radius: 5px;
 }
 
 article > section > button:hover {
   background-color: #eee;
   color: #111;
   transition: 350ms;
-  transition-timing-function: ease-in;
+  transition-timing-function: ease-in-out;
   cursor: pointer;
 }
 
-h3 {
-  font-size: 1.2em;
+article > section > h3 {
+  font-size: 1.25em;
   margin-bottom: 7px;
 }
 
-p {
+article > section > p {
   overflow: auto;
-  height: 330px;
+  height: 325px;
   margin-bottom: 7px;
+  font-style: italic;
+  font-size: 1.05em;
+  line-height: 1.4em;
+  letter-spacing: 0.02em;
 }
 
 /* todo
